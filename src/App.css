@@ -28,6 +28,10 @@
   color: #61dafb;
 }
 
+.app-container{
+  display: flex;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +39,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.enter-text{
+  color: #e1e4e8;
+}
+
+li.search-area{
+  margin: 15px
+}
+
+.go-btn{
+  margin-left: 15px;
+  height: 34px;
+  width: 43px;
+  background-color: #fafbfc;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #24292e;
+}
+
+
+.error-msg{
+  color: red;
+}
+
+input {
+  background: #333;
+    border: 1px solid #fafbfc;
+    height: 25px;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-left: 15px;
+    color: #fafbfc;
+}
+
+.PrivateTabIndicator-colorPrimary-2 {
+  background-color: #f9826c !important;
 }
