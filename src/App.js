@@ -42,7 +42,7 @@ class App extends React.Component {
                 <div className="header">
                     <ul>
                         <li className="search-area">
-                            <label className="enter-text"> Enter User name </label>
+                            <label className="enter-text"> Enter git hub User name </label>
                             <input
                                 value={this.state.userinput}
                                 onChange={this.handler}
